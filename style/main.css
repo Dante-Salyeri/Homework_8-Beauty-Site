@@ -1,0 +1,383 @@
+@font-face { 
+  font-family: "Roboto-Regular";
+  src: url('../font/Roboto-Regular.ttf');
+  font-weight: 400;
+}
+
+@font-face { 
+  font-family: "Roboto-Medium";
+  src: url('../font/Roboto-Medium.ttf');
+  font-weight: 500;
+}
+
+@font-face { 
+  font-family: "Roboto-Bold";
+  src: url('../font/Roboto-Bold.ttf');
+  font-weight: 700;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.fix-size {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+.center {
+  text-align: center;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.vertical-align {
+  vertical-align: middle
+}
+
+
+.navigation-top {
+  background-color: #E5E5E5;
+  padding: 17px 0;
+}
+
+.nav-top {
+  font-family: "Roboto-Regular";
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.nav-top .link {
+  color: #333333;
+}
+
+.nav-top li, .card:not(:last-child){
+  margin-right: 30px;
+}
+
+.logo {
+  font-family: "Roboto-Bold";
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.1em;
+  color: #F13C6E;
+}
+
+.logo-top {
+  margin: 20px 0;
+}
+
+.logo-right {
+  padding-right: 20px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.button-number-top {
+  margin: 40px 0;
+}
+
+.number {
+  font-family:"Roboto-Regular";
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.margin-right-40px {
+margin-right: 40px;
+}
+
+.button {
+  font-family:"Roboto-Regular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+  background: #FFFFFF;
+  border: 2px solid #F13C6E;
+  border-radius: 40px;
+  width: 170px;
+  height: 40px;
+  cursor: pointer
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.hr {
+  border: 1px solid #EFEFEF;
+  margin: 0;
+}
+
+.navigation-bottom {
+  width: 675px;
+  padding: 30px 0;
+}
+
+.nav-bottom {
+  font-family: "Roboto-Regular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.nav-bottom .link {
+  color: #000000;
+}
+
+.nav-bottom li:not(:last-child) {
+  margin-right: 40px;
+}
+
+.background {
+  background-image: url("../image/background-picture2.svg");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: 50% 0;
+  
+}
+
+
+.promotion {
+  padding: 193px 0 ;
+}
+
+.h1 {
+  font-family: "Roboto-Bold";
+font-weight: bold;
+font-size: 48px;
+line-height: 56px;
+color: #FFFFFF;
+}
+
+.info-text {
+  font-family: "Roboto-Regular";
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.padding-bottom {
+  padding: 50px 0;
+}
+
+.button-main {
+  background: #F13C6E;
+  border: 2px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 40px;
+  width: 170px;
+  height: 40px;
+}
+
+.button-link {
+  font-family: "Roboto-Regular";
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  padding: 12px 32px;
+}
+
+.title-text {
+  font-family: "Roboto-Bold";
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+color: #000000;
+}
+
+.offer-padding {
+  padding-bottom: 38px;
+}
+
+.card {
+  width: 255px;
+  background: #FFFFFF;
+}
+
+.section-chair{
+background: #EFEFEF;
+}
+
+.chair-position {
+  padding: 25px 65px 20px 65px;
+}
+
+.chair-info {
+  padding: 0 30px;
+  color: #333333;
+  text-align: center;
+}
+
+.price {
+  font-family: "Roboto-Medium";
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #000000;
+  padding: 20px 0;
+}
+
+.button-buy {
+  width: 130px;
+  height: 35px;
+  background: #F13C6E;
+  border-radius: 30px;
+  margin: 0px 63px 25px 63px;
+  border: none;
+}
+
+.card-info {
+  padding: 100px 0 113px 0;
+}
+
+.info-card {
+width: 540px;
+height: 212px;
+background: #F13C6E;
+padding: 35px 45px 35px 40px;
+background-image: url('../image/letter.png');
+background-repeat: no-repeat;
+background-position: 88% 50%;
+background-size: 140px;
+}
+
+.card-info-text {
+  font-family: "Roboto-Regular";
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+.info-padding {
+  padding: 25px 0;
+}
+
+.email {
+  background: #FFFFFF;
+  border-radius: 30px;
+  border: none;
+  width: 225px;
+  height: 35px;
+  padding-left: 25px;
+}
+
+.email::placeholder {
+  color: #C4C4C4;;
+}
+
+.bus {
+  background-image: url('../image/bus.png');
+  background-size: 199px;
+}
+
+.button-big {
+  padding: 12px 15px;
+}
+
+.button-short {
+  width: 170px;
+  height: 35px;
+}
+
+.section-padding {
+padding: 80px 0 103px 0;
+}
+
+.categories {
+  padding:62px 0 45px 0;
+}
+
+.font-size {
+  font-size: 16px;
+  line-height: 140.62%;
+  text-align: unset ;
+  padding: 0;
+}
+
+.hr-nav {
+  width: 255px;
+  height: 0px;
+  border: 1px solid #EFEFEF;
+  margin: 31px 0 26px 0;
+}
+
+.info-text li a {
+  font-size: 12px;
+  line-height: 28px;
+  color: #828282
+}
+
+.categories:not(:last-child){
+  margin-right: 30px;
+}
+
+.hr-footer {
+  border: 1px solid #EFEFEF;
+  margin: 0 0 33px 0;
+}
+
+.ellipse {
+  border: 2px solid #F13C6E;
+  border-radius: 50%;
+  width: 45px;
+  height: 46.05px;
+  text-align: center;
+}
+
+.icon-padding {
+  padding: 13px 0;
+} 
+
+.icon-padding-2 {
+  padding: 10px 0;
+} 
+
+.iconline-padding {
+  padding-bottom: 45px;
+}
+
+.ellipse:not(:last-child){
+  margin-right: 20px;
+}
+
+.legal {
+  background-color: #EFEFEF;
+  padding: 26px
+  ;
+}
+
+.legal-font{
+  font-size: 12px;
+  line-height: 14px;
+  color: #828282;
+}
